@@ -1,7 +1,7 @@
 body {
     background-color: #a44c64;
     margin: 0%;
-    height: 1180px;
+    height: 1100px;
 }
 
 
@@ -62,72 +62,29 @@ main.pt2 {
 
 
 
-.card {
 
-    width: 220px;
-    height: 180px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 9px;
-    margin-bottom: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.rp {
     text-align: center;
+    color: white;
+    width: 150px;
+    background-color: #a44c64;
+    margin: auto;
+}
+
+img {
+    width: 150px;
+    height: 120px;
+    margin-top: 10px;
 
 }
 
-div#c01 {
-    background-image: url(/Imagens/biografia.png);
-    background-position: center center;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.infos-img {
+    margin: 10px;
+
 }
 
-div#c02 {
-    background-image: url(/Imagens/our\ office.avif);
-    background-position: center center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
+.card {
+    display: flex;
+    flex-direction: column;
 
-div#c03 {
-    background-image: url(/Imagens/founders.avif);
-    background-position: center center;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-div#c04 { 
-    background-image: url(Imagens/referrals.avif);
-    background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
-}
-
-div#c05 {
-    background-image: url(/Imagens/forms.avif);
-    background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-div#c06 {
-    background-image: url(/Imagens/history.avif);
-    background-position: center center;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
